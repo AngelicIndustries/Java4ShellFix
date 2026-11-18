@@ -175,6 +175,8 @@ publishMods {
             projectId.set(mrId)
             accessToken.set(env("MODRINTH_TOKEN"))
             minecraftVersions.addAll(gameVersionList)
+            // Works on either side on its own, so neither is strictly required.
+            environment.set(CLIENT_OR_SERVER)
         }
     }
 
@@ -184,6 +186,9 @@ publishMods {
             projectId.set(cfId)
             accessToken.set(env("CURSEFORGE_TOKEN"))
             minecraftVersions.addAll(gameVersionList)
+            // CurseForge requires each file to declare its environment. This mod supports both.
+            client.set(true)
+            server.set(true)
         }
     }
 

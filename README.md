@@ -1,6 +1,6 @@
 # Java4ShellFix
 
-Runtime mitigation for CVE-2026-114938 ("Java4Shell"), the OpenJDK AVX-512 VBMI Base64 decode heap overflow. No restart required.
+Runtime mitigation for CVE-2026-114938 ("Java4Shell"), the OpenJDK AVX-512 VBMI Base64 decode heap overflow.
 
 > **The real fix is to update Java** (17.0.21.1 / 21.0.13.1 / 25.0.5.1 / 27.0.1.1+) **or add `-XX:-UseBASE64Intrinsics` to your JVM args.** This mod is a stopgap for when you can't do either right now.
 
