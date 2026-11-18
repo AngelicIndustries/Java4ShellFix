@@ -7,9 +7,9 @@ Runtime mitigation for CVE-2026-114938 ("Java4Shell"), the OpenJDK AVX-512 VBMI 
 ![logo](images/logo_small.png)
 
 [![hub](images/badges/github.png)](https://github.com/AngelicIndustries/Java4ShellFix/releases)
-[![curse](images/badges/curse.png)](https://www.curseforge.com/minecraft/mc-mods/java4shellfix)
-[![modrinth](images/badges/modrinth.png)](https://modrinth.com/mod/java4shellfix)
-[![67](images/badges/67.png)](https://67minecraft.com/mod/java4shellfix)
+[![curse](images/badges/curse.png)](https://www.curseforge.com/minecraft/mc-mods/java4shell-fix)
+[![modrinth](images/badges/modrinth.png)](https://modrinth.com/mod/java4shell-fix)
+[![67](images/badges/67.png)](https://67minecraft.com/mod/java4shell-fix)
 [![cord](images/badges/cord.png)](https://discord.gg/xAWCqGrguG)
 
 <!-- Not published yet
