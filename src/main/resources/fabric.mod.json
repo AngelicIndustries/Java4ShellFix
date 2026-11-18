@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "java4shellfix",
+  "version": "${version}",
+  "name": "Java4ShellFix",
+  "description": "Mitigates CVE-2026-114938 (\"Java4Shell\"), the OpenJDK AVX-512 VBMI Base64 decode heap overflow, at runtime. No restart required.",
+  "authors": ["Angelic Industries"],
+  "contact": {
+    "homepage": "https://angelic.industries/",
+    "sources": "https://github.com/AngelicIndustries/Java4ShellFix",
+    "issues": "https://github.com/AngelicIndustries/Java4ShellFix/issues"
+  },
+  "license": "LGPL-3.0-or-later",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": ["industries.angelic.java4shellfix.platform.FabricInit"]
+  },
+  "custom": {
+    "modmenu": { "badges": ["library"] }
+  }
+}

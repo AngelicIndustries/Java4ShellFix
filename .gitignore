@@ -1,0 +1,17 @@
+.gradle/
+build/
+/out/
+/bin/
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.env
+# local publishing/ convenience props
+local.properties
